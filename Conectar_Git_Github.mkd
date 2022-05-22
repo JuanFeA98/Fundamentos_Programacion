@@ -1,0 +1,21 @@
+# Conectar git con github
+
+1. Creamos la llave SSH con el comando:
+    
+    ssh-keygen -t rsa -b 4096 -C "jmartinezbernal02@gmail.com"
+    
+2. Esto generara una carpeta en nuestros archivos globales. Desde allí podremos consultar la información de nuestra llave.
+
+3. Para verificar que todo este corriendo bien usamos el comando:
+    
+    eval $(ssh-agent -s)
+    
+4. Agregamos la llave al entorno con el comando:
+    
+    ssh-add ~/.ssh/id_rsa
+    
+5. Vamos a la carpeta y copiamos nuestra llave pública. (Podemos abrirla en VSC)
+
+6. Vamos asettings en github y desde allí vamos a SSH and GPG keys
+
+7. Agregamos una nueva SSH key
