@@ -1,0 +1,20 @@
+# Configurar WLS
+
+**1.** Vamos a configuración y desde allí elegimos la opción "Actualización y seguridad"
+
+**2.** Activamos el "modo programador"
+
+**3.** Ahora vamos al panel de control, buscamos la sección de "Programas" y damos click en "Activar o desactivar las características de Windows"
+
+**4.** Habilitamos la opción "Subsistema de Windows para Linux"
+
+**5.** Instalamos Ubuntu desde la tienda de Microsoft
+
+Actualizar sistema:
+
+1. sudo apt update
+2. sudo apt upgrade
+
+## Credenciales
+**Usuario:** juanfe98
+**Contraseña** Colombia2022*
