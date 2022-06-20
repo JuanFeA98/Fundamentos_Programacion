@@ -1,1 +1,5 @@
-# *.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.pdf
+Python/
+Terminal y Linea de Comandos/
+airflow.mkd

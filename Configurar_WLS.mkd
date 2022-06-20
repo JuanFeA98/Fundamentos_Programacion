@@ -18,3 +18,12 @@ Actualizar sistema:
 ## Credenciales
 **Usuario:** juanfe98
 **Contraseña** Colombia2022*
+
+## Programas
+
+- **Python:** sudo apt install python3 python3-pip ipython3
+
+### Crear entornos virtuales
+
+    - python3 -m venv venv
+    - source venv/bin/activate
